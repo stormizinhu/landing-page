@@ -9,31 +9,31 @@ let li6 = document.querySelector('#li6');
 let li7 = document.querySelector('#li7');
 
 li1.addEventListener('click', () => {
-    img.src = './src/assets/res/sub.png';
+    img.src = './src/assets/res/sub.PNG';
     img.style.width = "500px";
 })
 li2.addEventListener('click', () => {
-    img.src = './src/assets/res/gift.png';
+    img.src = './src/assets/res/gift.PNG';
     img.style.width = "500px";
 })
 li3.addEventListener('click', () => {
-    img.src = './src/assets/res/com.png';
+    img.src = './src/assets/res/com.PNG';
     img.style.width = "500px";
 })
 li4.addEventListener('click', () => {
-    img.src = './src/assets/res/cheer.png';
+    img.src = './src/assets/res/cheer.PNG';
     img.style.width = "500px";
 })
 li5.addEventListener('click', () => {
-    img.src = './src/assets/res/tip.png';
+    img.src = './src/assets/res/tip.PNG';
     img.style.width = "500px";
 })
 li6.addEventListener('click', () => {
-    img.src = './src/assets/res/host.png';
+    img.src = './src/assets/res/host.PNG';
     img.style.width = "500px";
 })
 li7.addEventListener('click', () => {
-    img.src = './src/assets/res/raid.png';
+    img.src = './src/assets/res/raid.PNG';
     img.style.right = "100px";
     img.style.top = "100px";
     img.style.width = "350px";
