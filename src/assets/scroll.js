@@ -1,0 +1,40 @@
+window.sr = ScrollReveal({ reset:true});
+ScrollReveal({ distance: '15px' });
+// Inicio
+sr.reveal('.inicio-tab', {duration : 3000, origin: 'top'})
+sr.reveal('.btnflex', {duration : 3000, origin: 'bottom'})
+// Sobre
+sr.reveal('#imgSobre', {duration : 3000, origin: 'top'})
+sr.reveal('#bio-tittle', {duration : 3000, origin: 'right'})
+sr.reveal('#bio', {duration : 3000, origin: 'left'})
+sr.reveal('#post-bio', {duration : 3000, origin: 'bottom'})
+// Twitch
+sr.reveal('.twc', {duration : 3000, origin: 'bottom'})
+sr.reveal('.dsc', {duration : 3000, origin: 'bottom', delay: 500})
+sr.reveal('.tkt', {duration : 3000, origin: 'bottom', delay: 750})
+sr.reveal('.ytb', {duration : 3000, origin: 'bottom', delay: 1000})
+sr.reveal('.itg', {duration : 3000, origin: 'bottom', delay: 1250})
+sr.reveal('.fcb', {duration : 3000, origin: 'bottom', delay: 1500})
+// Skills
+sr.reveal('#tch1', {duration : 3000, origin: 'left'})
+sr.reveal('#tch2', {duration : 3000, origin: 'right'})
+sr.reveal('.sk0', {duration : 3000, origin: 'bottom'})
+sr.reveal('.sk1', {duration : 3000, origin: 'bottom', delay: 250})
+sr.reveal('.sk2', {duration : 3000, origin: 'bottom', delay: 350})
+sr.reveal('.sk3', {duration : 3000, origin: 'bottom', delay: 450})
+sr.reveal('.sk4', {duration : 3000, origin: 'bottom', delay: 550})
+sr.reveal('.sk5', {duration : 3000, origin: 'bottom', delay: 650})
+sr.reveal('.sk6', {duration : 3000, origin: 'bottom', delay: 750})
+sr.reveal('.sk7', {duration : 3000, origin: 'bottom', delay: 850})
+sr.reveal('.sk8', {duration : 3000, origin: 'bottom', delay: 950})
+sr.reveal('.sk9', {duration : 3000, origin: 'bottom', delay: 1050})
+sr.reveal('.sk10', {duration : 3000, origin: 'bottom', delay: 250})
+sr.reveal('.sk11', {duration : 3000, origin: 'bottom', delay: 350})
+sr.reveal('.sk12', {duration : 3000, origin: 'bottom', delay: 450})
+sr.reveal('.sk13', {duration : 3000, origin: 'bottom', delay: 550})
+sr.reveal('.sk14', {duration : 3000, origin: 'bottom', delay: 650})
+sr.reveal('.sk15', {duration : 3000, origin: 'bottom', delay: 750})
+sr.reveal('.sk16', {duration : 3000, origin: 'bottom', delay: 850})
+sr.reveal('.sk17', {duration : 3000, origin: 'bottom', delay: 950})
+// Projetos
+sr.reveal('.projetoFeito', {duration : 5000, origin: 'bottom',})
