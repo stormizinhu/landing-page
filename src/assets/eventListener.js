@@ -17,23 +17,23 @@ li2.addEventListener('click', () => {
     img.style.width = "500px";
 })
 li3.addEventListener('click', () => {
-    img.src = './src/assets/res/com.PNG';
+    img.src = './src/assets/res/com.png';
     img.style.width = "500px";
 })
 li4.addEventListener('click', () => {
-    img.src = './src/assets/res/cheer.PNG';
+    img.src = './src/assets/res/cheer.png';
     img.style.width = "500px";
 })
 li5.addEventListener('click', () => {
-    img.src = './src/assets/res/tip.PNG';
+    img.src = './src/assets/res/tip.png';
     img.style.width = "500px";
 })
 li6.addEventListener('click', () => {
-    img.src = './src/assets/res/host.PNG';
+    img.src = './src/assets/res/host.png';
     img.style.width = "500px";
 })
 li7.addEventListener('click', () => {
-    img.src = './src/assets/res/raid.PNG';
+    img.src = './src/assets/res/raid.png';
     img.style.right = "100px";
     img.style.top = "100px";
     img.style.width = "350px";

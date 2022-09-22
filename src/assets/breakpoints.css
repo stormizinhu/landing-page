@@ -1,158 +1,527 @@
-@media (max-width: 480px) {
-    * {
-       background-color: gray;
-    }
-    .flex-container ul li a {
-        font-size: 1.3rem;
-        color: #EEEEEE;
-    }
-    header .list-items {
-        justify-content: space-between;
-    }
-    .inicio-tab {
-        font-size: 1.5rem;
-        line-height: 42px;
-    }
-    .cta {
-        font-size: 1.3rem;
-        height: 50px;
-        width: 120px;
-    } 
-        /* Sobre */
-    #sobre {
-        font-size: 1.4rem;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    #sobre img {
-        width: 250px;
-    }
-    .sobre-flex h1, h2, p {
-        margin-bottom: -20px;
-        line-height: 30px;
-        height: 50px;
-    }
-    .sobre-flex p {
-        font-size: 1.1rem;
-        margin-top: -190px;
-    }
-        /* Twitch */
-    #twitch {
-        font-size: 1rem;
-    }
-    .twitch-tab {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    .twitch-item {
-        font-size: 1rem;
-        text-align: center;
-        margin: 30px;
-        height: 150px;
-        width: 150px;
-    }
-    .twitch-item h1 {
-        display: none;
-    }
-    .twitch-item p {
-        display: none;
-    }
-    .twitch-item img {
-        width: 100px;
-    }
-        /* Skills */
-    #skills {
-        font-size: 2rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 100vh;
-        width: 100%;
-    }
-    .skills-flex {
-        text-align: center;
-        margin-top: 25px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        width: 100%;
-    }
-    .skills-tab {
-        margin-top: 10px;
-    }
-    .skills-item img {
-        margin: 15px;
-        padding: 10px;
-        width: 75px;
-        border-radius: 20px;
-        background-color: #EEEEEE;
-    }
-    .skills-item img:hover {
-        transition: ease-in-out 0.5s;
-        transform: scale(1.2);
-        background-color: #0C2031;
-    }
-    #tech {
-        font-size: 2.5rem;
-        height: 50px;
-    } 
-        /* Projetos */
-    #projetos {
-        font-size: 1rem;
-    }
-    .projetos-tab {
-        text-align: center;
-        margin-top: 100px;
-        justify-content: center;
-    }
-    .projetos-items {
-        height: 700px;
-        width: 430px;
-    }
-    /*#imgSobre2 {
-        top: 250px;
-        right: 245px;
-        margin-left: auto;
-        margin-right: auto;
-        display: none;
-        position: relative;
-        max-width: 450px;
-    }*/
-    .projetoFeito {
-        text-align: center;
-        display: flex;
-        justify-content: space-between;
-        height: 700px;
-        width: 700px;
-    }
-    .projetoFeito h1{
-        margin: 10px;
-        margin-top: 20px;
-        margin-bottom: -200px;
-        line-height: 25px;
-    }
-    .projetoFeito p {
-        margin: 10px;
-        line-height: 17px;
-        color: #1a86e4;
-    }
-    .projetoFeito ul li{
-        text-align: center;
-        margin-top: 50px;
-        margin: 10px;
-        padding: 10px;
-        border-radius: 10px;
-        background-color: #EEEEEE;
-    }
-    .projetoFeito ul li:hover{
-        transform:scale(1.1);
-    }
-    footer {
-        font-size: 1rem;
-        line-height: 20px;
-        height: 50px;
-    }
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  * {
+    border: 1px solid red;
+  }
+  .flex-container ul li a {
+    font-size: 2rem;
+    color: #eeeeee;
+  }
+  header .list-items {
+    justify-content: space-around;
+  }
+  .inicio-tab {
+    font-size: 2rem;
+    line-height: 50px;
+  }
+  .cta {
+    font-size: 1.7rem;
+    height: 60px;
+    width: 150px;
+  }
+  /* Sobre */
+  #sobre {
+    font-size: 1.6rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+}
+#sobre img {
+    margin-top: 100px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 2px 1px rgba(0, 0, 0, 0.2);
+    animation: float 6s ease-in-out infinite;
+}
+.sobre-items-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 60vh;
+}
+.sobre-items h1, h2 {
+    color: #1a86e4;
+}
+  /* Twitch */
+  #twitch {
+    font-size: 1rem;
+  }
+  .twitch-tab {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .twitch-item {
+    font-size: 1rem;
+    text-align: center;
+    margin: 30px;
+    height: 175px;
+    width: 175px;
+  }
+  .twitch-item h1 {
+    display: none;
+  }
+  .twitch-item p {
+    display: none;
+  }
+  .twitch-item img {
+    width: 125px;
+  }
+  /* Skills */
+  #skills {
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+  }
+  .skills-flex {
+    text-align: center;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  #tch1 {
+    margin-top: -50px;
+  }
+  #tch2 {
+    margin-top: -30px;
+  }
+  .skills-tab {
+    margin-top: 10px;
+  }
+  .skills-item img {
+    margin: 15px;
+    padding: 10px;
+    width: 75px;
+    border-radius: 20px;
+    background-color: #eeeeee;
+  }
+  .skills-item img:hover {
+    transition: ease-in-out 0.5s;
+    transform: scale(1.2);
+    background-color: #0c2031;
+  }
+  #tech {
+    font-size: 3.5rem;
+    height: 75px;
+  }
+  /* Projetos */
+  #projetos {
+    font-size: 1.5rem;
+  }
+  .projetos-tab {
+    text-align: center;
+    margin-top: 100px;
+    justify-content: center;
+  }
+  .projetos-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    height: 80vh;
+    width: 90vw;
+  }
+  #imgSobre2 {
+    display: none;
+  }
+  .projetoFeito {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+    width: 80vw;
+  }
+  .projetoFeito h1 {
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: -200px;
+    line-height: 25px;
+  }
+  .projetoFeito p {
+    margin: 200px 10px 10px 10px;
+    line-height: 17px;
+    color: #1a86e4;
+  }
+  .projetoFeito ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: -10px;
+  }
+  .projetoFeito ul li {
+    text-align: center;
+    margin-top: 50px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #eeeeee;
+  }
+  .projetoFeito ul li:hover {
+    transform: scale(1.1);
+  }
+  footer {
+    font-size: 1.3rem;
+    line-height: 30px;
+    height: 75px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  * {
+    border: 1px solid red;
+  }
+  .flex-container ul li a {
+    font-size: 2rem;
+    color: #eeeeee;
+  }
+  .inicio-tab {
+    font-size: 2rem;
+    line-height: 50px;
+  }
+  .cta {
+    font-size: 1.7rem;
+    height: 60px;
+    width: 150px;
+  }
+  /* Sobre */
+  #sobre {
+    font-size: 1.6rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+}
+#sobre img {
+    margin-top: 100px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 2px 1px rgba(0, 0, 0, 0.2);
+    animation: float 6s ease-in-out infinite;
+}
+.sobre-items-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 60vh;
+}
+.sobre-items h1, h2 {
+    color: #1a86e4;
+}
+.sobre-items h1, h2, p {
 }   
+  /* Twitch */
+  #twitch {
+    font-size: 1rem;
+  }
+  .twitch-tab {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .twitch-item {
+    font-size: 1rem;
+    text-align: center;
+    margin: 30px;
+    height: 175px;
+    width: 175px;
+  }
+  .twitch-item h1 {
+    display: none;
+  }
+  .twitch-item p {
+    display: none;
+  }
+  .twitch-item img {
+    width: 125px;
+  }
+  /* Skills */
+  #skills {
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+  }
+  .skills-flex {
+    text-align: center;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  #tch1 {
+    margin-top: -50px;
+  }
+  #tch2 {
+    margin-top: -30px;
+  }
+  .skills-tab {
+    margin-top: 10px;
+  }
+  .skills-item img {
+    margin: 15px;
+    padding: 10px;
+    width: 75px;
+    border-radius: 20px;
+    background-color: #eeeeee;
+  }
+  .skills-item img:hover {
+    transition: ease-in-out 0.5s;
+    transform: scale(1.2);
+    background-color: #0c2031;
+  }
+  #tech {
+    font-size: 3.5rem;
+    height: 75px;
+  }
+  /* Projetos */
+  #projetos {
+    font-size: 1.5rem;
+  }
+  .projetos-tab {
+    text-align: center;
+    margin-top: 100px;
+    justify-content: center;
+  }
+  .projetos-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    height: 80vh;
+    width: 90vw;
+  }
+  #imgSobre2 {
+    display: none;
+  }
+  .projetoFeito {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+    width: 80vw;
+  }
+  .projetoFeito h1 {
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: -200px;
+    line-height: 25px;
+  }
+  .projetoFeito p {
+    margin: 200px 10px 10px 10px;
+    line-height: 17px;
+    color: #1a86e4;
+  }
+  .projetoFeito ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: -10px;
+  }
+  .projetoFeito ul li {
+    text-align: center;
+    margin-top: 50px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #eeeeee;
+  }
+  .projetoFeito ul li:hover {
+    transform: scale(1.1);
+  }
+  footer {
+    font-size: 1.3rem;
+    line-height: 30px;
+    height: 75px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  .flex-container ul li a {
+    font-size: 2rem;
+    color: #eeeeee;
+  }
+  header .list-items {
+    justify-content: space-around;
+  }
+  .inicio-tab {
+    font-size: 3rem;
+    line-height: 75px;
+  }
+  .cta {
+    font-size: 2rem;
+    height: 60px;
+    width: 200px;
+  }
+  /* Sobre */
+  #sobre {
+    font-size: 1.7rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+}
+#sobre img {
+    margin-top: 100px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 2px 1px rgba(0, 0, 0, 0.2);
+    animation: float 6s ease-in-out infinite;
+}
+.sobre-items-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 60vh;
+}
+.sobre-items h1, h2 {
+    color: #1a86e4;
+} 
+  /* Twitch */
+  #twitch {
+    font-size: 1rem;
+  }
+  .twitch-tab {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+  }
+  .twitch-item {
+    font-size: 1rem;
+    text-align: center;
+    margin: 30px;
+    height: auto;
+    width: 250px;
+  }
+  .twitch-item img {
+    width: 125px;
+  }
+  /* Skills */
+  #skills {
+    font-size: rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+  }
+  .skills-flex {
+    text-align: center;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  #tch1 {
+    margin-bottom: 50px;
+  }
+  #tch2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .skills-tab {
+    margin-top: 10px;
+  }
+  .skills-item img {
+    margin: 15px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #eeeeee;
+  }
+  .skills-item img:hover {
+    transition: ease-in-out 0.5s;
+    transform: scale(1.2);
+    background-color: #0c2031;
+  }
+  #tech {
+    margin-top: -10px;
+    font-size: 3.5rem;
+    height: 75px;
+  }
+  /* Projetos */
+  #projetos {
+    font-size: 1.5rem;
+  }
+  .projetos-tab {
+    text-align: center;
+    margin-top: 100px;
+    justify-content: center;
+  }
+  .projetos-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    height: 80vh;
+    width: 90vw;
+  }
+  #imgSobre2 {
+    display: none;
+  }
+  .projetoFeito {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+    width: 80vw;
+  }
+  .projetoFeito h1 {
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: -200px;
+    line-height: 25px;
+  }
+  .projetoFeito p {
+    margin: 200px 10px 10px 10px;
+    line-height: 17px;
+    color: #1a86e4;
+  }
+  .projetoFeito ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: -10px;
+  }
+  .projetoFeito ul li {
+    text-align: center;
+    margin-top: 50px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #eeeeee;
+  }
+  .projetoFeito ul li:hover {
+    transform: scale(1.1);
+  }
+  footer {
+    font-size: 2rem;
+    line-height: 30px;
+    height: 75px;
+  }
+}
